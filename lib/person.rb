@@ -27,7 +27,7 @@ class Person
 
     def hygiene=(hygiene)
         hygiene > 10 ? @hygiene = 10
-        : hygiene < 0 ? @hygiene = 0
+        :  hygiene < 0 ? @hygiene = 0
         : @hygiene = hygiene
     end
 
